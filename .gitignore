@@ -1,0 +1,27 @@
+# ── Secrets ──────────────────────────────────────────────
+# Never commit real API keys. Each project keeps its own .env.
+.env
+.env.*
+!.env.example
+
+# ── Python ───────────────────────────────────────────────
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# ── Node / frontend ──────────────────────────────────────
+node_modules/
+dist/
+.vite/
+
+# ── Editor / tooling ─────────────────────────────────────
+.claude/
+.cursor/
+.vscode/
+.idea/
+
+# ── OS ───────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
