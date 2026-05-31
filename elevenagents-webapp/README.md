@@ -12,6 +12,14 @@ loyalty — and politely declines to invent what it doesn't know.
   use) plus a one-off **provisioning script** that uploads your RAG files, builds
   the RAG index, and creates the grounded agent — all via the ElevenLabs Python SDK.
 
+## Demo
+
+A walkthrough of the Aerial SG site and the RAG-grounded voice concierge.
+
+https://github.com/george-liao/elevenlabs-projects/releases/download/aerial-sg-v1.0.0/aerial-sg-demo.mov
+
+📺 If the player above doesn't load, **[download / watch the demo here](https://github.com/george-liao/elevenlabs-projects/releases/download/aerial-sg-v1.0.0/aerial-sg-demo.mov)** (attached to the [latest release](https://github.com/george-liao/elevenlabs-projects/releases/latest)).
+
 ---
 
 ## Architecture
