@@ -8,6 +8,7 @@ Each project is self-contained, with its own setup instructions and `README`.
 | Project | Description | Stack |
 | --- | --- | --- |
 | [tts-webapp](./tts-webapp) | **Voixy** — a text-to-speech web app: type text, pick a voice, play the generated audio in the browser. | FastAPI · React (Vite) · ElevenLabs SDK |
+| [elevenagents-webapp](./elevenagents-webapp) | **Aerial SG** — a premium airline site with an embedded, RAG-grounded voice concierge (ElevenLabs Agents). | FastAPI · React + TS (Vite) · ElevenLabs Agents + RAG |
 
 _More to come: speech-to-text, voice cloning, dubbing…_
 

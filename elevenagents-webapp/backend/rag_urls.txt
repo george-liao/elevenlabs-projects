@@ -1,0 +1,7 @@
+# Optional: ground the agent on web pages in addition to ./rag_files.
+# Add one URL per line. Lines starting with # are ignored.
+# ElevenLabs scrapes the page content (it does NOT follow links or auto-refresh).
+#
+# Example:
+# https://www.your-airline.com/baggage-policy
+# https://www.your-airline.com/loyalty-program

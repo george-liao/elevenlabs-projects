@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  @apply bg-night-950 text-mist-100 font-sans antialiased;
+}
+
+/* Thin, premium scrollbars for the inner panels. */
+.scroll-slim::-webkit-scrollbar {
+  width: 6px;
+}
+.scroll-slim::-webkit-scrollbar-thumb {
+  @apply bg-night-700 rounded-full;
+}
+.scroll-slim::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Gold gradient text used for accents. */
+.text-gold-gradient {
+  background: linear-gradient(100deg, #f4dca0 0%, #d4af52 45%, #b9912f 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
